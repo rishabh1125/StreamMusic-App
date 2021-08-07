@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018697942034",
+    "firebase_url": "https://todo-list-56db5.firebaseio.com",
+    "project_id": "todo-list-56db5",
+    "storage_bucket": "todo-list-56db5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018697942034:android:87a121b14b26e3833e84cb",
+        "android_client_info": {
+          "package_name": "com.example.streammusicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018697942034-f2914rfhs4sa48pdfvkuuttfgnu4h417.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyTu4tcC_6BiPuF2K0Ug7rlcp4OpXcBwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018697942034-f2914rfhs4sa48pdfvkuuttfgnu4h417.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5000000"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="15dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/app_name"
+        android:textColor="@color/purple_500"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:id="@+id/main"
+        android:background="@color/cardview_dark_background">
+    </TextView>
+
+    <TextView
+        android:id="@+id/nowSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Playing song"
+        android:textSize="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/nowArtist"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Playing song"
+        android:textSize="15dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        ></TextView>
+
+        <ImageView
+            android:id="@+id/nowThumb"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="true"></ImageView>
+
+        <SeekBar
+            android:id="@+id/songSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="30dp"></SeekBar>
+
+
+        <Button
+            android:id="@+id/playpause"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Pause"></Button>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
